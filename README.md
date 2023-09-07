@@ -4,15 +4,83 @@
 
 ---
 
+## 起源说
+```tex
+夸父逐日，而我追逐梦想
+
+每一步，每一息，如同古人追逐那无尽的光辉
+
+没有终点，只有过程
+
+要始终坚信
+
+翻过这座山，他们就会听到你的故事
+
+不管故事的结局
+```
+
+
 ## 官方网站
 
 [https://www.henrybk.com](https://www.henrybk.com)
 
-## 项目介绍
+## 项目简介
 
-KuaFu  是一个前后端分离后台管理系统
+KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离后台管理系统
 
-### 系统功能
+## 项目架构
+
+### 架构图
+
+
+
+### 技术栈
+
+**后端技术： **
+
+```java
+* SpringBoot：简化新Spring应用的初始搭建以及开发过程
+* MyBatis-Plus：持久层框架
+* Mysql：关系型数据库
+* Spring Cache：缓存组件
+* Redis：数据缓存
+* Spring Security：权限认证
+* Swagger2：Api接口文档工具
+* Lombok：简化代码开发工具
+* EasyExcel：Excel快速处理工具
+* AOP：全局日志记录
+```
+
+**前端技术**
+```
+* Node.js
+* Npm
+* Vue
+* ElementUI
+* Axios
+* echarts
+```
+
+## 系统模块
+
+```java
+com.henry
+├─ doc				// 文档
+│  ├─ images						// 图片
+│  └─ sql							// 项目脚本
+├─ kuafu_parent		// 后端框架
+│  ├─ coder							// 代码生成器
+│  ├─ common						// 公共模块
+│  │  ├─ common_log										// 日志模块
+│  │  ├─ common_security								// 权限认证模块
+│  │  ├─ common_service									// 公共业务模块
+│  │  └─ common_util									// 通用工具模块
+│  ├─ model							// 实体模块
+│  └─ service						// 业务模块
+└─ kuafu_web		// 前端框架
+```
+
+## 系统功能
 
 * 首页
 * 系统管理
@@ -27,37 +95,8 @@ KuaFu  是一个前后端分离后台管理系统
   * 登录日志
   * 操作日志
 
-## 软件架构
 
-**项目服务器端架构 ： SpringBoot + MyBatisPlus + SpringSecurity**
-
-**前端架构：Node.js + Npm + Vue + ElementUI + Axios**
-
-### 后端技术
-
-* SpringBoot：简化新Spring应用的初始搭建以及开发过程
-* MyBatis-Plus：持久层框架
-* Mysql：关系型数据库
-* Spring Cache：缓存组件
-* Redis：数据缓存
-* Spring Security：权限认证
-* Swagger2：Api接口文档工具
-* Lombok：简化代码开发工具
-* EasyExcel：Excel快速处理工具
-* AOP：全局日志记录
-
-### 前端技术：
-
-* Node.js
-* Npm
-* Vue
-* ElementUI
-* Axios
-* echarts
-
----
-
-### 技术文档
+## 技术文档
 
 * Spring Boot中文文档：[https://springdoc.cn/spring-boot/](https://springdoc.cn/spring-boot/)
 * Spring Security中文文档：[https://springdoc.cn/spring-security/](https://springdoc.cn/spring-security/)
@@ -69,7 +108,7 @@ KuaFu  是一个前后端分离后台管理系统
 * vue-element-template：[https://panjiachen.gitee.io/vue-element-admin-site/zh/guide/](https://panjiachen.gitee.io/vue-element-admin-site/zh/guide/)
 * Echarts：[https://echarts.apache.org/zh/index.html](https://echarts.apache.org/zh/index.html)
 
-#### 安装教程
+## 安装教程
 
 **后端**
 1、创建mysql数据库，数据库名：`kuafu`
@@ -84,9 +123,8 @@ KuaFu  是一个前后端分离后台管理系统
 2、安装完成后，执行 `npm run dev`启动项目
 3、启动完成后，访问[http://localhost:8887/](http://localhost:8887/)
 
----
 
-#### 演示效果图
+## 演示效果图
 
 **登录账号：admin/123456,test/123456**
 
