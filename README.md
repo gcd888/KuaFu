@@ -38,13 +38,14 @@ KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离
 
 **后端技术： **
 
-```java
+```
 * SpringBoot：简化新Spring应用的初始搭建以及开发过程
 * MyBatis-Plus：持久层框架
 * Mysql：关系型数据库
 * Spring Cache：缓存组件
 * Redis：数据缓存
 * Spring Security：权限认证
+* JWT：跨域认证
 * Swagger2：Api接口文档工具
 * Lombok：简化代码开发工具
 * EasyExcel：Excel快速处理工具
@@ -52,6 +53,7 @@ KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离
 ```
 
 **前端技术**
+
 ```
 * Node.js
 * Npm
