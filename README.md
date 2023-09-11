@@ -1,10 +1,18 @@
-# KuaFu
+<p align="center">
+	<img alt="logo" height="100" width="auto" src="doc/images/KuaFu-full1(已去底).png">
+</p>
+<h1 align="center" style="margin: 0px 0 30px; font-weight: bold;">KuaFu</h1>
+<h4 align="center">一个基于 SpringBoot、Spring Security、Jwt、Vue 快速开发的前后端分离脚手架</h4>
+<p align="center">
+	<a href="https://gitee.com/henryguan/KuaFu/stargazers"><img src="https://gitee.com/henryguan/KuaFu/badge/star.svg?theme=dark"></a>
+	<a href="https://gitee.com/y_project/RuoYi-Cloud"><img src="https://img.shields.io/badge/KuaFu-v1.0.1-green"></a>
+	<a href="https://gitee.com/henryguan/KuaFu/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache-blue"></a>
+</p>
 
-# 一个快速开发的前后端分离脚手架
 
----
 
 ## 起源说
+
 ```tex
 夸父逐日，而我追逐梦想
 
@@ -36,7 +44,7 @@ KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离
 
 ### 技术栈
 
-**后端技术： **
+**后端 **
 
 ```
 * SpringBoot：简化新Spring应用的初始搭建以及开发过程
@@ -52,7 +60,7 @@ KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离
 * AOP：全局日志记录
 ```
 
-**前端技术**
+**前端**
 
 ```
 * Node.js
@@ -65,7 +73,7 @@ KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离
 
 ## 系统模块
 
-```java
+```tex
 com.henry
 ├─ doc				// 文档
 │  ├─ images						// 图片
