@@ -6,7 +6,7 @@
 <p align="center">
 	<a href="https://gitee.com/henryguan/KuaFu/stargazers"><img src="https://gitee.com/henryguan/KuaFu/badge/star.svg?theme=dark"></a>
 	<a href="https://gitee.com/y_project/RuoYi-Cloud"><img src="https://img.shields.io/badge/KuaFu-v1.0.1-green"></a>
-	<a href="https://gitee.com/henryguan/KuaFu/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache-blue"></a>
+	<a href="https://gitee.com/henryguan/KuaFu/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache2.0-blue"></a>
 </p>
 
 
@@ -30,7 +30,7 @@
 
 ## 官方网站
 
-[https://www.henrybk.com](https://www.henrybk.com)
+[https://www.henrybk.com](https://www.henrybk.com) （建设中）
 
 ## 项目简介
 
