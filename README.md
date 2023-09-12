@@ -9,14 +9,12 @@
 	<a href="https://gitee.com/henryguan/KuaFu/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache2.0-blue"></a>
 </p>
 
+---
 
-
-## 起源说
+## 平台简介
 
 ```tex
-夸父逐日，而我追逐梦想
-
-每一步，每一息，如同古人追逐那无尽的光辉
+夸父追逐烈日
 
 没有终点，只有过程
 
@@ -27,14 +25,9 @@
 不管故事的结局
 ```
 
-
 ## 官方网站
 
-[https://www.henrybk.com](https://www.henrybk.com) （建设中）
-
-## 项目简介
-
-KuaFu  是一个基于SpringBoot、Spring Security、Jwt、Vue的前后端分离后台管理系统
+[https://www.henrybk.com（建设中）](https://www.henrybk.com) 
 
 ## 项目架构
 
@@ -91,7 +84,7 @@ com.henry
 ```
 
 ## 系统功能
-
+```tex
 * 首页
 * 系统管理
   * 用户管理
@@ -104,7 +97,7 @@ com.henry
 * 系统监控
   * 登录日志
   * 操作日志
-
+```
 
 ## 技术文档
 
