@@ -63,17 +63,17 @@
           </template>
         </el-table-column>
         <el-table-column prop="username" label="用户名" width="120" align="center" />
-        <el-table-column prop="name" label="姓名" width="120" align="center" />
+        <el-table-column prop="name" label="姓名" width="110" align="center" />
         <el-table-column prop="deptName" label="部门名称" width="100" align="center" />
         <el-table-column prop="postName" label="岗位名称" width="100" align="center" />
         <el-table-column prop="phone" label="手机号码" width="110" align="center" />
-        <el-table-column label="状态" align="center" width="70">
+        <el-table-column label="状态" align="center" width="60">
           <template slot-scope="scope">
             <el-switch v-model="scope.row.status" :active-value="1" :inactive-value="0"
               @change="handleStatusChange(scope.row)"></el-switch>
           </template>
         </el-table-column>
-        <el-table-column prop="createTime" label="创建时间" width="160" align="center" />
+        <el-table-column prop="createTime" label="创建时间" width="150" align="center" />
   
         <!-- 操作栏 -->
         <el-table-column label="操作" align="center" fixed="right">
